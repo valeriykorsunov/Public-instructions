@@ -11,26 +11,26 @@
 
 * Вкладка `Файл данных` 
 
-![joxi_screenshot_1558295545379](file://media/2917.png)
+![joxi_screenshot_1558295545379]/media/2917.png)
 
 * Далее 	`Формат` 
 
-![joxi_screenshot_1558295657243](file://media/2407.png)
+![joxi_screenshot_1558295657243](/media/2407.png)
 
 * Далее `Поля`
 
-![joxi_screenshot_1558295721382](file://media/7646.png)
+![joxi_screenshot_1558295721382](/media/7646.png)
 
-![joxi_screenshot_1558295767266](file://media/28306.png)
+![joxi_screenshot_1558295767266](/media/28306.png)
 
 * **Сохранить .**
 
 ## 2. Тест импорта данных 
 
-![2019-05-19_23-59-44](file://media/22530.png)
+![2019-05-19_23-59-44](/media/22530.png)
 
 ## 3. Привязать профиль импорта к cron 
 
-![2019-05-20_00-03-31](file://media/101.png)
+![2019-05-20_00-03-31](/media/101.png)
 
 ## 4. 
