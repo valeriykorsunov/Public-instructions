@@ -19,3 +19,9 @@
 
 * Далее `Поля`
 
+![joxi_screenshot_1558295721382](file://media/7646.png)
+
+![joxi_screenshot_1558295767266](file://media/28306.png)
+
+* **Сохранить .**
+
