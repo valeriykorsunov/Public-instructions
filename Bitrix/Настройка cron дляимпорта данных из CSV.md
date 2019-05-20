@@ -43,7 +43,7 @@
 
 В папке сайта переходим по пути `/bitrix/php_interface/include/catalog_import` 
 
-## 5. Редактируем `cron_frame.php`
+и редактируем `cron_frame.php`
 
 ![20.05.2019 09-40-57-193](/media/0003.png)
 
