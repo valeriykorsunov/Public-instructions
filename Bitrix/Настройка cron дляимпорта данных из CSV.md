@@ -61,15 +61,15 @@
 
 2. Настройка крона
 
-		в папке `/var/spool/cron`  на сервере найти файл с именем пользователя `bitrix`
+	в папке `/var/spool/cron`  на сервере найти файл с именем пользователя `bitrix`
 
-		прописать 
-		``` 
-		0 1 * * * /usr/bin/php -f /home/bitrix/ext_www/niime.bitdev.ru/bitrix/php_interface/include/catalog_import/cron_frame.php 1 >/home/bitrix/ext_www/niime.bitdev.ru/bitrix/php_interface/include/catalog_import/logs/1.txt
-		
-		5 0 * * * /usr/bin/php /home/bitrix/ext_www/niime.bitdev.ru/local/forImportCSV/convert_In_XML_to_CSV.php >/home/bitrix/ext_www/niime.bitdev.ru/upload/import-1c/log.txt
+	прописать 
+	```
+	0 1 * * * /usr/bin/php -f /home/bitrix/ext_www/niime.bitdev.ru/bitrix/php_interface/include/catalog_import/cron_frame.php 1 >/home/bitrix/ext_www/niime.bitdev.ru/bitrix/php_interface/include/catalog_import/logs/1.txt
 
-		```
-		в строке `/usr/bin/php -f /home/bitrix/ext_www/niime.bitdev.ru/bitrix/php_interface/include/catalog_import/cron_frame.php 1` : `1` - это ИД профиля импорта (эта строка должна уже быть в файле)
-
-		Вторая строка это запуск php скрипта на конвертацию данных в csv файл
+	5 0 * * * /usr/bin/php /home/bitrix/ext_www/niime.bitdev.ru/local/forImportCSV/convert_In_XML_to_CSV.php >/home/bitrix/ext_www/niime.bitdev.ru/upload/import-1c/log.txt
+	```
+	в строке `/usr/bin/php -f /home/bitrix/ext_www/niime.bitdev.ru/bitrix/php_interface/include/catalog_import/cron_frame.php 1`  
+	"1" - это ИД профиля импорта (эта строка должна уже быть в файле)
+	
+	Вторая строка это запуск php скрипта на конвертацию данных в csv файл
